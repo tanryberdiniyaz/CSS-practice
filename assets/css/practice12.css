@@ -1,0 +1,30 @@
+nav.menu li {
+  display: inline-block;
+}
+
+nav.menu {
+  text-align: center;
+}
+
+nav.menu li a {
+  text-decoration: none;
+  color: brown;
+  padding: 1rem;
+  background-color: aqua;
+  margin-right: 1rem;
+  margin-top: 15px;
+  display: inline-block;
+  background-image: linear-gradient(to left, 50deg, rgb(26, 10, 251));
+  font-size: 2rem;
+}
+
+footer div ul {
+  list-style-type: none;
+}
+footer div ul li {
+  margin-bottom: 10px;
+}
+
+footer div ul li a {
+  text-decoration: none;
+}

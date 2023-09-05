@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  font-family: 'Bitter', serif;
+}
+
+h1 {
+  background-color: #8fbc8f;
+  text-align: center;
+  font-style: italic;
+  padding: 0.5rem;
+  border-radius: 15px;
+  text-transform: uppercase;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+div.icerik {
+  background-color: #ffe4c4;
+  border: 4px solid black;
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+img {
+  border: 3px solid red;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+div.icerik a {
+  text-decoration: none;
+  color: black;
+}

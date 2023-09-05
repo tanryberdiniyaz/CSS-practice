@@ -1,0 +1,39 @@
+.container {
+  width: 80%;
+  background-color: lightgray;
+  border-radius: 2rem;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  color: red;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.container p {
+  text-align: left;
+  color: rgb(121, 113, 113);
+  font-size: 1.1rem;
+  padding: 0.1rem;
+}
+
+.container .menu a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin: 1rem;
+}
+.container .menu a:hover {
+  text-decoration: none;
+  font-size: 1.3rem;
+  margin: 1rem;
+  color: white;
+  background-color: red;
+}
+
+.menu {
+  padding: 0 1rem 1rem 0;
+}

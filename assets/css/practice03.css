@@ -1,0 +1,15 @@
+.container {
+  width: 50%;
+  background-color: aqua;
+}
+
+h1,
+h2 {
+  color: red;
+  background-color: yellow;
+  text-align: center;
+}
+
+span {
+  color: red;
+}

@@ -1,0 +1,36 @@
+section.container {
+  text-align: center;
+}
+
+section.container div.baslik {
+  position: relative;
+}
+
+section.container div.baslik span {
+  font-size: 2.5rem;
+  color: rgba(237, 112, 112, 0.2);
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+section.container div.cards {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+section.container div.cards div {
+  border: 2px solid rgb(154, 154, 154);
+  width: 30%;
+  margin-bottom: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
